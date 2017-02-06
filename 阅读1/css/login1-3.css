@@ -1,0 +1,162 @@
+@import url(bace.css);
+body{
+    font-size:0.24rem;
+    background: #f2f2f2;
+}
+input{
+    outline:medium;
+}
+.header{
+    width:100%;
+    height:3.42rem;
+    background: #29a6dc;
+    font-size:0.34rem;
+    color:#fff;
+    font-family:"黑体";
+}
+.header-top{
+    width:7.06rem;height:0.3rem;
+    margin:0 auto;
+    background:url(../images/top.png)center no-repeat;
+    -webkit-background-size:7.06rem auto;
+    background-size:7.06rem auto;
+}
+.dl-text{
+    width:7.5rem;height:1.02rem;
+    text-align:center;
+    padding-top:0.46rem;
+    margin:0 auto;
+    position: relative;
+}
+.dl-pic img{
+    width:0.44rem;height:0.44rem;
+    float:left;
+    margin-left:0.25rem;
+    vertical-align:middle;
+    position:absolute;
+    left:25px;
+}
+.dl{
+    line-height:0.44rem;
+}
+.header-book{
+    width:1.75rem;height:1.06rem;
+    margin:0 auto;
+}
+.header-book img{
+    width:1.75rem;height:1.06rem;
+}
+.container-text{
+    width:6.17rem;height:0.83rem;
+    margin:0 auto;
+    margin-top:1.12rem;
+    color:#0a196b;
+    font-weight:bold;
+    line-height:0.42rem;
+}
+.container-text2{
+    float:right;
+}
+.container-num{
+    width:6.18rem;height:0.88rem;
+    -webkit-border-radius:0.44rem;
+    -moz-border-radius:0.44rem;
+    border-radius:0.44rem;
+    border:0.01rem solid #4c9afb;
+    margin:0 auto;
+    margin-top:0.82rem;
+    background:#fff;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_7m3q0oo1yhsn61or.eot');
+    src: url('http://at.alicdn.com/t/font_7m3q0oo1yhsn61or.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_7m3q0oo1yhsn61or.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_7m3q0oo1yhsn61or.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_7m3q0oo1yhsn61or.svg#iconfont') format('svg');
+}
+.container-num-icon{
+    font-family: 'iconfont';
+    font-size:0.46rem;
+    margin-left:0.44rem;
+    line-height:0.88rem;
+    color:#3abffd;
+    vertical-align:middle;
+}
+.container-num input{
+    border:0;
+    margin-left:0.33rem;
+    color:#999;
+    font-size:0.26rem;
+}
+.container-mima{
+    margin-top:0.4rem;
+}
+.container-z{
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0;
+    border:0;
+}
+.container-z-left{
+    float:left;
+    width:1.5rem;
+    vertical-align:middle;
+}
+.container-z-right{
+    float:right;
+    width:1.5rem;
+    vertical-align:middle;
+    margin-right:0.52rem;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_9v2vdaitgxh6w29.eot');
+    src: url('http://at.alicdn.com/t/font_9v2vdaitgxh6w29.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_9v2vdaitgxh6w29.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_9v2vdaitgxh6w29.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_9v2vdaitgxh6w29.svg#iconfont') format('svg');
+}
+.zhmm{
+    color:#666;
+    font-size:0.2rem;
+    margin-bottom:1rem;
+    float:right;
+}
+.go{
+    width:5.66rem;height:0.68rem;
+    background: #3abffd;
+    -webkit-border-radius:0.34rem;
+    -moz-border-radius:0.34rem;
+    border-radius:0.34rem;
+    border:0.01rem solid #3abffd;
+    margin:0 auto;
+    margin-top:0.55rem;
+    position: relative;
+}
+.circle1{
+    width:0.06rem;height:0.06rem;
+    background: #fff;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position: absolute;
+    left:0.29rem;
+    top:0.32rem;
+}
+.circle2{
+    width:0.06rem;height:0.06rem;
+    background: #fff;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position: absolute;
+    right:0.29rem;
+    top:0.32rem;
+}
+.go-text{
+    color:#fff;
+    text-align:center;
+    line-height:0.68rem;
+    font-size:0.26rem;
+}
