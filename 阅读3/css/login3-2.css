@@ -1,0 +1,253 @@
+@import url(bace.css);
+body{
+    font-size:0.24rem;
+    background: #fafafa;
+    box-sizing:border-box;
+    font-family:"微软雅黑";
+    width:7.5rem;height:13.34rem;
+    position: relative;
+    margin:0 auto;
+}
+input{
+    outline:medium;
+}
+
+.header{
+    width:100%;
+    height:1.4rem;
+    background: #29a6dc;
+    font-size:0.34rem;
+    color:#fff;
+    font-family:"黑体";
+}
+.header-top{
+    width:7.06rem;height:0.3rem;
+    margin:0 auto;
+    background:url(../images/top.png)center no-repeat;
+    -webkit-background-size:7.06rem auto;
+    background-size:7.06rem auto;
+}
+.dl-text{
+    width:7.5rem;height:0.85rem;
+    text-align:center;
+    margin:0 auto;
+    position: relative;
+}
+.sousuo2{
+    width:0.44rem;height:0.44rem;
+    position:absolute;
+    right:0.24rem;top:0.2rem;
+    background:url(../images/book2-1.png);
+    background-size:0.44rem;height:0.44rem;
+}
+.img{
+    width:0.68rem;height:0.06rem;
+    margin:0 auto;
+    margin-top:0.05rem;
+    position: relative;
+}
+.img img{
+    position: absolute;
+    top:0;left:0;
+}
+.my{
+    font-size:0.12rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top:0.05rem;
+}
+.list-box{
+    width:5.71rem;height:0.84rem;
+    margin:0 auto;
+    background: #2a3441;
+    -webkit-border-radius:0.42rem;
+    -moz-border-radius:0.42rem;
+    border-radius:0.42rem;
+    margin-top:0.16rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left:0.2rem;
+}
+.list-img{
+    width:0.03rem;height:0.59rem;
+    float:left;
+    margin-top:0.1rem;
+    margin-left:0.3rem;
+    margin-right:0.2rem;
+}
+.list-img img{
+    width:0.03rem;height:0.59rem;
+}
+.list-little{
+    width:1.31rem;height:0.84rem;
+    float:left;
+    text-align:center;
+    color:#fff;
+}
+.list-style{
+    width:1.65rem;height:0.7rem;
+    border:0.02rem solid #fff;
+    margin-top:0.06rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius:0.35rem;
+    -moz-border-radius:0.35rem;
+    border-radius:0.35rem;
+    background: #29a6dc;
+    position: relative;
+}
+.circle1{
+    width:0.03rem;height:0.03rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: #fff;
+    position: absolute;
+    left:0.32rem;top:0.24rem;
+}
+.circle2{
+    width:0.03rem;height:0.03rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: #fff;
+    position: absolute;
+    left:0.38rem;top:0.24rem;
+}
+.circle3{
+    width:0.03rem;height:0.03rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: #fff;
+    position: absolute;
+    RIGHT:0.32rem;top:0.24rem;
+}
+.circle4{
+    width:0.03rem;height:0.03rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: #fff;
+    position: absolute;
+    right:0.38rem;top:0.24rem;
+}
+.list-style .list-text{
+    line-height:0.2rem;
+}
+.list-text{
+    font-size:0.24rem;
+    margin-top:0.14rem;
+    line-height:0.3rem;
+}
+.list-e{
+    font-size:0.14rem;
+    color:#bddbe8;
+}
+.big-box{
+    width:7.5rem;height:2.88rem;
+    background: #dedede;
+    color:#fff;
+}
+.box{
+    width:7.5rem;height:2.7rem;
+    background: #000;
+    position: relative;
+}
+.box>img{
+    width:7.5rem;height:2.7rem;
+    opacity:0.7;
+    position: absolute;
+    top:0;left:0;
+    float:left;
+}
+.new{
+    position: relative;
+    z-index:10;
+}
+.left-box{
+    width:3rem;height:2.36rem;
+    float:left;
+    text-align:center;
+    margin-left:0.45rem;
+}
+.new-title{
+    font-size:0.28rem;
+    margin-top:0.38rem;
+}
+.new-e{
+    font-size:0.08rem;
+    margin-top:0.06rem;
+}
+.new-text{
+    font-size:0.18rem;
+    margin-top:0rem;
+}
+.right-box{
+    width:3.74rem;height:2rem;
+    float:right;
+    margin-top:0.5rem;
+}
+.right-little-box-one{
+    width:3.74rem;height:0.54rem;
+    float:right;
+    position: relative;
+}
+.right-text{
+    margin-left:0.92rem;
+    line-height:0.25rem;
+}
+.right-little-box-one img{
+    width:0.6rem;height:0.25rem;
+    position:absolute;
+    top:0;left:0.19rem;
+    z-index:10;
+}
+.right-little-box-one:nth-child(2) img{
+    width:0.79rem;height:0.35rem;
+    position:absolute;
+    top:0;left:0;
+    z-index:10;
+}
+.right-little-box-one:nth-child(3) img{
+    width:0.51rem;height:0.2rem;
+    position:absolute;
+    top:0;left:0.28rem;
+    z-index:10;
+}
+.footer{
+    width:7.5rem;height:1rem;
+    background-color: #000;
+    margin:0 auto;
+    color:#fff;
+    position:fixed;
+    bottom:0;
+    z-index:1000;
+}
+.footer a{
+    color:#656668;
+}
+.footer a:nth-child(2){
+    color:#fff;
+}
+.footer-box{
+    text-align:center;
+    width:2.48rem;height:1rem;
+    float:left;
+    font-size:0.24rem;
+    border-right:0.01rem solid #717171;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.eot');
+    src: url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.svg#iconfont') format('svg');
+}
+.footer-icon{
+    font-family: 'iconfont';
+    font-size:0.44rem;
+    margin-top:0.09rem;
+}

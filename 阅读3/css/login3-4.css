@@ -1,0 +1,315 @@
+@import url(bace.css);
+body{
+    font-size:0.24rem;
+    background: #fafafa;
+    box-sizing:border-box;
+    font-family:"微软雅黑";
+    width:7.5rem;height:13.34rem;
+    position: relative;
+    margin:0 auto;
+}
+input{
+    outline:medium;
+}
+
+.header{
+    width:100%;
+    height:1.4rem;
+    background: #29a6dc;
+    font-size:0.34rem;
+    color:#fff;
+    font-family:"黑体";
+}
+.header-top{
+    width:7.06rem;height:0.3rem;
+    margin:0 auto;
+    background:url(../images/top.png)center no-repeat;
+    -webkit-background-size:7.06rem auto;
+    background-size:7.06rem auto;
+}
+.sousuo{
+    width:0.5rem;height:0.5rem;
+    position:absolute;
+    left:0.24rem;
+    background:url(../images/book2-2.png);
+    background-size:0.5rem 0.5rem;
+    margin-top:0.37rem;
+}
+.top-box{
+    width:6.88rem;height:6.01rem;
+    margin:0 auto;
+    -webkit-box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    -moz-box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    margin-top:0.12rem;
+    -webkit-border-radius:0.1rem;
+    -moz-border-radius:0.1rem;
+    border-radius:0.1rem;
+}
+.top-top{
+    width:6.88rem;height:2.3rem;
+}
+.top-left{
+    width:2.39rem;height:2.02rem;
+    float:left;
+    margin-top:0.6rem;
+    margin-left:0.17rem;
+}
+.top-right{
+    width:3.66rem;height:3.3rem;
+    float:left;
+    margin-top:0.6rem;
+    margin-left:0.5rem;
+}
+.top-left img{
+    width:2.39rem;height:2.02rem;
+}
+.top-right img:first-child{
+    width:1.33rem;height:0.23rem;
+}
+.top-text-title{
+    font-size:0.28rem;
+    color:#333;
+}
+.top-text-one{
+    font-size:0.24rem;
+    color:#333;
+}
+.top-text-two{
+    font-size:0.18rem;
+    color:#333;
+}
+.zuozhe{
+    font-size:0.2rem;
+    color:#484848;
+}.p{
+     font-size:0.18rem;
+     color:#c5c5c5;
+ }
+ .biaoqian{
+     width:0.86rem;height:0.33rem;
+     background: #67e479;
+     -webkit-border-radius:0.165rem;
+     -moz-border-radius:0.165rem;
+     border-radius:0.165rem;
+     margin-top:0.08rem;
+     margin-right:0.15rem;
+     float:left;
+ }
+ .top-right a{
+     color:#fff;
+     text-align:center;
+     line-height:0.33rem;
+     font-size:0.22rem;
+ }
+ .top-bottom{
+     width:6.55rem;height:1.91rem;
+     margin:0 auto;
+     float:left;
+ }
+ .top-little{
+     width:2.61rem;height:0.69rem;
+     -webkit-border-radius:0.345rem;
+     -moz-border-radius:0.345rem;
+     border-radius:0.345rem;
+     background: #fff;
+     -webkit-box-shadow: 0 0 0.1rem rgba(42, 126, 255, 0.13);
+     -moz-box-shadow: 0 0 0.1rem rgba(42, 126, 255, 0.13);
+     box-shadow: 0 0 0.1rem rgba(42, 126, 255, 0.13);
+     margin-left:0.38rem;
+     float:left;
+ }
+.top-little img{
+    width:0.45rem;height:0.5rem;
+    margin-left:0.46rem;
+    margin-top:0.09rem;
+    margin-right:0.19rem;
+    float:left;
+}
+.mulu{
+    float:left;
+    margin-top:0.18rem;
+}
+.bottom-little{
+    width:2.7rem;height:0.69rem;
+    -webkit-border-radius:0.345rem;
+    -moz-border-radius:0.345rem;
+    border-radius:0.345rem;
+    background: #29a6dc;
+    float:left;
+    margin-left:1.9rem;
+    margin-top:0.2rem;
+    color:#fff;
+    text-align:center;
+    line-height:0.69rem;
+    position: relative;
+}
+.dian1{
+    width:0.09rem;height:0.09rem;
+    -webkit-border-radius:0.045rem;
+    -moz-border-radius:0.045rem;
+    border-radius:0.045rem;
+    background: #fff;
+    position: absolute;
+    left:0.29rem;top:0.32rem;
+}
+.dian2{
+    width:0.09rem;height:0.09rem;
+    -webkit-border-radius:0.045rem;
+    -moz-border-radius:0.045rem;
+    border-radius:0.045rem;
+    background: #fff;
+    position: absolute;
+    right:0.29rem;top:0.32rem;
+}
+.new-talk-top{
+    width:6.88rem;height:1.23rem;
+    margin:0 auto;
+}
+.new-talk-top img{
+    width:.36rem;height:.58rem;
+    float:left;
+    margin-top:0.35rem;
+}
+.talk-top-text{
+    float:left;
+    margin-top:0.35rem;
+}
+.talk-top-text1{
+    font-size:0.3rem;
+    color:#252525;
+}
+.talk-top-text2{
+    font-size:0.2rem;
+    color:#252525;
+}
+.new-talk-box{
+    width:6.88rem;height:1.6rem;
+    margin:0 auto;
+    -webkit-box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    -moz-box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:0.01rem solid #fff;
+    -webkit-border-radius:0.1rem;
+    -moz-border-radius:0.1rem;
+    border-radius:0.1rem;
+    margin-top:0.23rem;
+}
+.img-left{
+    width:0.8rem;height:0.8rem;
+    margin-top:0.35rem;
+    margin-left:0.18rem;
+    float:left;
+}
+.img-left img{
+    width:0.8rem;height:0.8rem;
+}
+.diandian{
+    line-height:0.1rem;
+    margin-bottom:0.1rem;
+}
+.img-right{
+    width:5.35rem;height:1.54rem;
+    margin-top:0.35rem;
+    margin-left:0.34rem;
+    float:left;
+}
+.new-bottom{
+    width:5.45rem;height:0.38rem;
+    margin:0 auto;
+}
+.new-bottom-left{
+    float:left;
+}
+.new-bottom-right{
+    float:right;
+    margin-right:0.2rem;
+}
+.new-text-top{
+    color:#737373;
+    font-size:0.22rem;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_z777qr0mrq30izfr.eot');
+    src: url('http://at.alicdn.com/t/font_z777qr0mrq30izfr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_z777qr0mrq30izfr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_z777qr0mrq30izfr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_z777qr0mrq30izfr.svg#iconfont') format('svg');
+}
+.circle{
+    width:0.35rem;height:0.35rem;
+    text-align:center;
+    line-height:0.35rem;
+}
+.icon{
+    font-family: 'iconfont';
+    color:#7ca5ff;
+    float:left;
+}
+.circle-text{
+    float:left;
+    color:#a4a1a1;
+}
+.more-little{
+    width:2.22rem;height:0.39rem;
+}
+.more-little-text{
+    line-height:0.39rem;
+}
+.more-d1{
+    top:0.18rem;left:0.24rem;
+}
+.more{
+    width:7.5rem;height:0.39rem;
+    margin:0 auto;
+    position: relative;
+}
+.more-little{
+    -webkit-border-radius:0.15rem;
+    -moz-border-radius:0.15rem;
+    border-radius:0.15rem;
+    position: absolute;
+    left:0.7rem;
+}
+.more-d2{
+    top:0.18rem;right:0.24rem;
+}
+.add-box{
+    width:6.89rem;height:0.84rem;
+    -webkit-box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    -moz-box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    box-shadow:0 0 0.1rem rgba(42, 126, 255, 0.13);
+    margin:0 auto;
+    -webkit-border-radius:0.12rem;
+    -moz-border-radius:0.12rem;
+    border-radius:0.12rem;
+    margin-bottom:0.7rem;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_k9w5gz2cieqdj9k9.eot');
+    src: url('http://at.alicdn.com/t/font_k9w5gz2cieqdj9k9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_k9w5gz2cieqdj9k9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_k9w5gz2cieqdj9k9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_k9w5gz2cieqdj9k9.svg#iconfont') format('svg');
+}
+.add-icon{
+    font-family: 'iconfont';
+    color:#4f9ed7;
+    font-size:0.36rem;
+    float:left;
+    line-height:0.84rem;
+    margin-left:2.56rem;
+}
+.add-text{
+    color:#2d2d2d;
+    font-size:0.24rem;
+    float:left;
+    line-height:0.84rem;
+    text-align:center;
+    margin-left:0.12rem;
+}

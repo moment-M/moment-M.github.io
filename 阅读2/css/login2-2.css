@@ -1,0 +1,258 @@
+@import url(bace.css);
+body{
+    font-size:0.24rem;
+    background: #fafafa;
+    box-sizing:border-box;
+    font-family:"微软雅黑";
+    width:7.5rem;height:13.34rem;
+    position: relative;
+    margin:0 auto;
+}
+input{
+    outline:medium;
+}
+
+.header{
+    width:100%;
+    height:1.4rem;
+    background: #29a6dc;
+    font-size:0.34rem;
+    color:#fff;
+    font-family:"黑体";
+    border-bottom:#29a6dc;
+    margin-bottom:0.36rem;
+}
+.header-top{
+    width:7.06rem;height:0.3rem;
+    margin:0 auto;
+    background:url(../images/top.png)center no-repeat;
+    -webkit-background-size:7.06rem auto;
+    background-size:7.06rem auto;
+}
+.dl-text{
+    width:5.45rem;height:0.54rem;
+    margin:0 auto;
+    position: relative;
+    margin-top:0.23rem;
+    -webkit-border-radius:0.27rem;
+    -moz-border-radius:0.27rem;
+    border-radius:0.27rem;
+    -webkit-box-shadow:0.01rem 0.01rem 0.16rem rgba(1, 116, 166, 0.34);
+    -moz-box-shadow:0.01rem 0.01rem 0.16rem rgba(1, 116, 166, 0.34);
+    box-shadow:0.01rem 0.01rem 0.16rem rgba(1, 116, 166, 0.34);
+}
+.sousuo{
+    width:0.5rem;height:0.5rem;
+    position:absolute;
+    left:0.24rem;
+    background:url(../images/book2-2.png);
+    background-size:0.5rem 0.5rem;
+    margin-top:0.24rem;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.eot');
+    src: url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.svg#iconfont') format('svg');
+}
+.dl-left{
+    width:0.57rem;height:0.54rem;
+    -webkit-border-radius:0.27rem 0 0 0.27rem;
+    -moz-border-radius:0.27rem 0 0 0.27rem;
+    border-radius:0.27rem 0 0 0.27rem;
+    background: #f6f6f6;
+    font-family: 'iconfont';
+    position:absolute;
+    color:#acacac;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top:0.06rem;
+    padding-left:0.15rem;
+    -webkit-box-shadow: inset 0.05rem 0 0.05rem #e5e5e5;
+    -moz-box-shadow:inset 0.05rem 0 0.05rem #e5e5e5;
+    box-shadow:inset 0.05rem 0 0.05rem #e5e5e5;
+}
+.dl{
+    width:4.88rem;height:0.54rem;
+    -webkit-border-radius:0 0.27rem 0.27rem 0;
+    -moz-border-radius:0 0.27rem 0.27rem 0;
+    border-radius:0 0.27rem 0.27rem 0;
+    margin:0 auto;
+    margin-top:0.82rem;
+    background:#fff;
+    position: absolute;
+    bottom:0;right:0;
+}
+.dl input{
+    border:0;
+    margin-left:0.14rem;
+    color:#999;
+    font-size:0.22rem;
+
+}
+.my{
+    font-size:0.12rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top:0.05rem;
+}
+.new-box{
+    width:2.5rem;height:0.55rem;
+    margin-left:0.17rem;
+}
+.new-box img{
+    width:0.3rem;height:0.3rem;
+    float:left;
+    margin-right:0.16rem;
+}
+.new-text-c{
+    font-size:0.28rem;
+    line-height:0.2rem;
+    float:left;
+}
+.new-text-e{
+    margin-left:0.46rem;
+    font-size:0.16rem;
+    color:#666;
+    float:left;
+    font-family:"微软雅黑";
+}
+.new-pic-box{
+    width:7.83rem;height:3.6rem;
+    margin-left:0.26rem;
+    margin-top:0.32rem;
+    position: relative;
+}
+.new-back{
+    width:2.5rem;height:3.6rem;
+    margin-right:0.16rem;
+    float:left;
+    background:rgba(198, 198, 198, 0.4);
+    position: relative;
+}
+.new-back:last-child{
+    position:absolute;
+    left:5.32rem;
+}
+.new-back img{
+    width:2.5rem;height:3.6rem;
+    -webkit-box-shadow:0.01rem 0.01rem 0.12rem rgba(198, 198, 198, 0.76);
+    -moz-box-shadow:0.01rem 0.01rem 0.12rem rgba(198, 198, 198, 0.76);
+    box-shadow:0.01rem 0.01rem 0.12rem rgba(198, 198, 198, 0.76);
+}
+.new-back-top{
+    width:2.12rem;height:2.82rem;
+    background-color: #fff;
+    -webkit-border-radius:0.03rem;
+    -moz-border-radius:0.03rem;
+    border-radius:0.03rem;
+    border:0.02rem solid #fff;
+    position:absolute;
+    top:-0.15rem;left:0.18rem;
+}
+.new-back-top img{
+    width:2.08rem;height:2.78rem;
+    margin-top:0.02rem;
+    margin-left:0.02rem;
+}
+.new-back-text1{
+    font-weight:lighter;
+    font-size:0.22rem;
+    text-align:center;
+    margin-top:0.14rem;
+}
+.new-back-text2{
+    font-weight:lighter;
+    font-size:0.12rem;
+    text-align:center;
+}
+.read-box{
+    width:7.03rem;height:5.6rem;
+    margin:0 auto;
+
+}
+.read-little{
+    width:7.03rem;height:1.69rem;
+    background: #fff;
+    -webkit-border-radius:0.07rem;
+    -moz-border-radius:0.07rem;
+    border-radius:0.07rem;
+    border:0.01rem solid #fff;
+    margin-top:0.18rem;
+    -webkit-box-shadow:0.01rem 0.01rem 0.12rem rgba(198, 198, 198, 0.76);
+    -moz-box-shadow:0.01rem 0.01rem 0.12rem rgba(198, 198, 198, 0.76);
+    box-shadow:0.01rem 0.01rem 0.12rem rgba(198, 198, 198, 0.76);
+    position: relative;
+}
+.read-little img{
+    width:2.26rem;height:1.52rem;
+    margin-left:0.07rem;
+    margin-top:0.07rem;
+    margin-right:0.2rem;
+    float:left;
+}
+.read-text-box{
+    float:left;
+    width:4.17rem;
+    height:1.50rem;
+    border-left:0.04rem dotted #c7c7c7;
+    margin-top:0.07rem;
+    padding-left:0.15rem;
+}
+.read-right-top{
+    font-size:0.28rem;
+    float:left;
+    margin-top:0.1rem;
+    margin-right:0.8rem;
+}
+.read-right-e{
+    font-size:0.1rem;
+    color:#888;
+}
+.read-end{
+    font-size:0.2rem;
+    color:#999;
+}
+.read-bottom{
+    font-size:0.22rem;
+    color:#888;
+
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 222775 */
+    src: url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.eot');
+    src: url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.svg#iconfont') format('svg');
+}
+.bottom-left{
+    margin-top:0.21rem;
+    height:0.24rem;
+    float:left;
+}
+.bottom-icon{
+    font-family: 'iconfont';
+    font-size:0.24rem;
+    float:left;
+    color:#29a6dc;
+    line-height:0.24rem;
+    margin-right:0.10rem;
+}
+.bottom-text{
+    font-size:0.16rem;
+    float:left;
+    color:#999;
+    line-height:0.16rem;
+}
+.footer{
+    width:7.5rem;height:4.32rem;
+    margin:0 auto;
+    position:fixed;
+    bottom:0;
+}
+.footer img{
+    width:7.5rem;height:4.32rem;
+}
