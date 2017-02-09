@@ -51,11 +51,11 @@ input{
 }
 @font-face {
     font-family: 'iconfont';  /* project id 222775 */
-    src: url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.eot');
-    src: url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.eot?#iefix') format('embedded-opentype'),
-    url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.woff') format('woff'),
-    url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.ttf') format('truetype'),
-    url('http://at.alicdn.com/t/font_cm8n3eqpwyuy2e29.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_cm8n3eqpwyuy2e29.eot');
+    src: url('//at.alicdn.com/t/font_cm8n3eqpwyuy2e29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_cm8n3eqpwyuy2e29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_cm8n3eqpwyuy2e29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_cm8n3eqpwyuy2e29.svg#iconfont') format('svg');
 }
 .dl-left{
     width:0.57rem;height:0.54rem;
@@ -222,11 +222,11 @@ input{
 }
 @font-face {
     font-family: 'iconfont';  /* project id 222775 */
-    src: url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.eot');
-    src: url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.eot?#iefix') format('embedded-opentype'),
-    url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.woff') format('woff'),
-    url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.ttf') format('truetype'),
-    url('http://at.alicdn.com/t/font_fla6rd2lt3issjor.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_fla6rd2lt3issjor.eot');
+    src: url('//at.alicdn.com/t/font_fla6rd2lt3issjor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_fla6rd2lt3issjor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_fla6rd2lt3issjor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_fla6rd2lt3issjor.svg#iconfont') format('svg');
 }
 .bottom-left{
     margin-top:0.21rem;

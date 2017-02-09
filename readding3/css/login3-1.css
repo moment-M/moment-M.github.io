@@ -250,11 +250,11 @@ input{
 }
 @font-face {
     font-family: 'iconfont';  /* project id 222775 */
-    src: url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.eot');
-    src: url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.eot?#iefix') format('embedded-opentype'),
-    url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.woff') format('woff'),
-    url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.ttf') format('truetype'),
-    url('http://at.alicdn.com/t/font_b22pn7p5v4xfajor.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_b22pn7p5v4xfajor.eot');
+    src: url('//at.alicdn.com/t/font_b22pn7p5v4xfajor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_b22pn7p5v4xfajor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_b22pn7p5v4xfajor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_b22pn7p5v4xfajor.svg#iconfont') format('svg');
 }
 .footer-icon{
     font-family: 'iconfont';
