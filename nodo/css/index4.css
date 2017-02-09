@@ -1,0 +1,193 @@
+input,ul,h1,h2,h3,h4,h5,h6,body,figure,p{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+body{
+    font-family:"微软雅黑";
+    font-size:12px;
+    color:#5f5851;
+}
+@media screen and (min-width:1200px){
+    body{
+        overflow-x: hidden;
+    }
+}
+body a{
+    font-family:"微软雅黑";
+    color:#5f5851;
+}
+.header{
+    width:100%;height:562px;
+
+}
+.header-top{
+    width:100%;height:37px;
+    background:#ebeaea;
+}
+.header-bottom-box{
+    width:1200px;height:99px;
+    margin:0 auto;
+}
+.nav-left{
+    width:172px;height:140px;
+    background: #ebeaea;
+    padding-left:24px;
+    border-radius:0 0 10px 10px;
+    float:left;
+    position: relative;
+    z-index:10;
+}
+.nav-inner{
+    width:1028px;height:99px;
+    float:left;
+    padding:28px 42px;
+    text-align: justify;
+}
+.nav-inner:after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
+.header-text-box{
+    height:99px;
+    line-height:25px;
+    display:inline-block;
+    font-size:18px;
+}
+.header-text-e{
+    font-size:16px;
+}
+.hx{
+    width:26px;height:1px;
+    background: #c09589;
+    margin-top:12px;
+    margin-left:30px;
+}
+.banner-box-big{
+    width:100%;height:339px;
+    opacity:0.8;
+}
+.banner-box{
+    width:1600px;height:339px;
+    margin:0 auto;
+    position: relative;
+}
+.banner-box img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.container-one{
+    width:1070px;height:104px;
+    margin:0 auto;
+    line-height:29px;
+}
+.container-one-box{
+    width:68px;height:29px;
+    float:left;
+    background:url(../images/nodo-1_05.png);
+    text-align:center;
+    line-height:29px;
+    margin-right:6px;
+    font-weight:bold;
+    font-size:18px;
+}
+.container-one-text{
+    font-size:18px;
+}
+.hengxian{
+    width:906px;height:1px;
+    background: #806260;
+    margin-top:13px;
+    margin-left:6px;
+}
+.left{
+    float:left;
+}
+.container-two{
+    width:1062px;height:366px;
+    margin:0 auto;
+    color:#9a9494;
+}
+.two-left{
+    font-size:48px;
+    width:520px;
+    margin-top:190px;
+    font-weight:bold;
+}
+.container-three{
+    width:1116px;height:72px;
+    border-bottom:1px solid #d4cbca;
+    margin:0 auto;
+    font-size:34px;
+    font-weight:bold;
+    color:#40302f;
+    padding-right:30px;
+    padding-left:20px;
+    margin-top:90px;
+    margin-bottom:60px;
+}
+.container-three a span:hover{
+    text-decoration: underline;
+}
+.container-four{
+    width:1200px;height:980px;
+    margin:0 auto;
+    color:#40302f;
+    padding-left:84px;
+}
+.one{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:36px;
+}
+.one-text{
+    font-size:14px;
+    line-height:28px;
+    margin-bottom:48px;
+}
+.one-top{
+    font-size:20px;
+}
+.footer{
+    width:1200px;height:120px;
+    margin:0 auto;
+    margin-top:96px;
+}
+.footer-xian{
+    width:1150px;height:1px;
+    margin:0 auto;
+    background: #d1d1d1;
+}
+.footer-bottom-box{
+    width:624px;height:76px;
+    margin:0 auto;
+    margin-top:34px;
+}
+.footer-bottom-little {
+    width: 208px;
+    height: 76px;
+    float: left;
+}
+.footer-little-k{
+    width:208px;height:76px;
+    float:left;
+    border-right:1px solid #a9a8a8;
+}
+
+.ewm-text{
+    float:left;
+}
+.ewm{
+    float:left;
+}

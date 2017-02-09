@@ -250,10 +250,13 @@ body{
 .footer{
     width:100%;height:auto;
     background:#f2f2f2;
+    border-top:1px solid #f2f2f2;
+
 }
 .footer .container{
     width:980px;height:auto;
     margin:0 auto;
+    margin-top:20px;
 }
 .footer-box{
     width:20%;height:260px;
@@ -313,7 +316,7 @@ body{
     padding-bottom:26px;
 }
 .beian{
-    width:700px; height: 50px;
+    width:100%; height: 50px;
     padding-left:10px;
 }
 .beian-1{
@@ -329,10 +332,11 @@ body{
 }
 
 .line{
-    width: 140%;
+    width: 98%;
     margin: 0 auto;
     border:1px solid #e3e3e3;
-    margin:10px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .beian-2{
     color: #999;

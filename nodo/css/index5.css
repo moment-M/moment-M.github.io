@@ -1,0 +1,246 @@
+input,ul,h1,h2,h3,h4,h5,h6,body,figure,p{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+input{
+    outline:medium;
+}
+body{
+    font-family:"微软雅黑";
+    font-size:12px;
+    color:#5f5851;
+}
+@media screen and (min-width:1200px){
+    body{
+        overflow-x: hidden;
+    }
+}
+body a{
+    font-family:"微软雅黑";
+    color:#5f5851;
+}
+.header{
+    width:100%;height:562px;
+
+}
+.header-top{
+    width:100%;height:37px;
+    background:#ebeaea;
+}
+.header-bottom-box{
+    width:1200px;height:99px;
+    margin:0 auto;
+}
+.nav-left{
+    width:172px;height:140px;
+    background: #ebeaea;
+    padding-left:24px;
+    border-radius:0 0 10px 10px;
+    float:left;
+    position: relative;
+    z-index:10;
+}
+.nav-inner{
+    width:1028px;height:99px;
+    float:left;
+    padding:28px 42px;
+    text-align: justify;
+}
+.nav-inner:after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
+.header-text-box{
+    height:99px;
+    line-height:25px;
+    display:inline-block;
+    font-size:18px;
+}
+.header-text-e{
+    font-size:16px;
+}
+.hx{
+    width:26px;height:1px;
+    background: #c09589;
+    margin-top:12px;
+    margin-left:15px;
+}
+.banner-box-big{
+    width:100%;height:339px;
+    opacity:0.8;
+}
+.banner-box{
+    width:1600px;height:339px;
+    margin:0 auto;
+    position: relative;
+}
+.banner-box img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.container-one{
+    width:1070px;height:104px;
+    margin:0 auto;
+    line-height:29px;
+}
+.container-one-box{
+    width:68px;height:29px;
+    float:left;
+    background:url(../images/nodo-1_05.png);
+    text-align:center;
+    line-height:29px;
+    margin-right:6px;
+    font-weight:bold;
+    font-size:18px;
+}
+.container-one-text{
+    font-size:18px;
+}
+.hengxian{
+    width:906px;height:1px;
+    background: #806260;
+    margin-top:13px;
+    margin-left:6px;
+}
+.left{
+    float:left;
+}
+.container-two{
+    width:1108px;height:140px;
+    margin:0 auto;
+    color:#7e7171;
+    text-align:center;
+    line-height:140px;
+    font-size:24px;
+}
+.container-three{
+    width:794px;height:168px;
+    margin:0 auto;
+    color:#7e7171;
+    font-size:22px;
+    border-bottom:1px solid #806260;
+    margin-bottom:42px;
+}
+.sousuo{
+    width:788px;height:66px;
+    background:url(../images/nodo-5_03.png);
+    padding-left:62px;
+    line-height:64px;
+    font-size:22px;
+    color:#aea2a2;
+}
+.sousuo input{
+    font-size:22px;
+    color:#aea2a2;
+    border:0;
+}
+.hot{
+    font-size:18px;
+    margin-top:24px;
+}
+.hot span{
+    margin-right:16px;
+}
+.container-four-two{
+    width:904px;height:440px;
+    margin:0 auto;
+    color:#7e7171;
+    font-size:18px;
+    margin-bottom:100px;
+}
+.four-box{
+    width:286px;height:178px;
+    margin-right:22px;
+    border:1px solid #7e7171;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    margin-bottom:40px;
+}
+.four-little{
+    width:284.5px;height:48px;
+    border-bottom:1px solid #7e7171;
+    background: #ebeaea;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    text-align:center;
+    line-height:48px;
+}
+.text-little-box{
+    width:204px;height:90px;
+    margin-top:20px;
+    margin-left:40px;
+}
+.text-little{
+    font-size:14px;
+    width:102px;height:45px;
+    text-align:center;
+    line-height:45px;
+    float:left;
+}
+.text-little a:hover{
+    text-decoration:underline;
+}
+.container-four{
+    width:904px;height:340px;
+    margin:0 auto;
+    color:#40302f;
+}
+.one{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:36px;
+}
+.one-text{
+    font-size:14px;
+    line-height:28px;
+    margin-bottom:48px;
+}
+.one-top{
+    font-size:20px;
+}
+.footer{
+    width:1200px;height:120px;
+    margin:0 auto;
+    margin-top:96px;
+}
+.footer-xian{
+    width:1150px;height:1px;
+    margin:0 auto;
+    background: #d1d1d1;
+}
+.footer-bottom-box{
+    width:624px;height:76px;
+    margin:0 auto;
+    margin-top:34px;
+}
+.footer-bottom-little {
+    width: 208px;
+    height: 76px;
+    float: left;
+}
+.footer-little-k{
+    width:208px;height:76px;
+    float:left;
+    border-right:1px solid #a9a8a8;
+}
+
+.ewm-text{
+    float:left;
+}
+.ewm{
+    float:left;
+}
