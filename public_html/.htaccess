@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^520.itbyc.com$ [NC]
+RewriteRule ^(.*)$ http://520.itbyc.com/$1 [L,R=301]
+RewriteRule ^/$ http://520.itbyc.com/love.html [R=301,L]
+RewriteRule ^index.html$ http://520.itbyc.com/love.html [R=301,L]
+RewriteRule ^index.php$ http://520.itbyc.com/love.html [R=301,L]
+RewriteRule ^index.htm$ http://520.itbyc.com/love.html [R=301,L]
