@@ -1,0 +1,32 @@
+
+.wdrj{
+    display: block;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+.wdrj>h2{
+    text-align:center;
+}
+.wdrj>h2:before{
+    content: "";
+    display: block;
+    width:40%;height:2px;
+    background: #ccc;
+    float:left;
+    margin-top:14px;
+}
+.wdrj>h2:after{
+    content: "";
+    display: block;
+    width:40%;height:2px;
+    background: #ccc;
+    float:right;
+    margin-top:14px;
+}
+.box>p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-line-clamp:5;
+    -webkit-box-orient: vertical;
+}
