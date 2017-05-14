@@ -1,0 +1,136 @@
+@import url(bace.css);
+html,body{
+    height:100%;
+    overflow: hidden;
+}
+.box-one{
+    width:100%;height:100%;
+    overflow:hidden;
+    position: relative;
+}
+.one-img{
+    width:200%;height:100%;
+}
+.one-img img{
+    width:50%;height:100%;
+}
+.x1{
+    width:0.6rem;height:0.6rem;
+    border:2px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position: absolute;
+    top:0.5rem;right:0.5rem;
+    font-size:0.5rem;
+    color:#fff;
+    text-align:center;
+    line-height:0.6rem;
+}
+.x2{
+    width:0.6rem;height:0.6rem;
+    border:2px solid #A59681;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position: absolute;
+    top:0.5rem;right:0.5rem;
+    font-size:0.5rem;
+    color:#A59681;
+    text-align:center;
+    line-height:0.6rem;
+    display: none;
+}
+.p{
+    letter-spacing: 0.1rem;
+    writing-mode:tb-rl;
+    position: absolute;
+    top:50%;right:-0.6rem;
+    margin-top:-4rem;
+    font-size:0.4rem;
+    color: #F6BEAD;
+    transition: all 1s;
+}
+.box-two{
+    height:100%;
+    background:url("../img/mq (2).jpg");
+    background-size:contain;
+}
+.box-two p{
+    font-family:"微软雅黑";
+    font-size:0.3rem;
+    color: #A59681;
+    padding:0.16rem;
+    line-height:0.5rem;
+    position: absolute;
+    bottom:0.4rem;left:0.3rem;
+    opacity: 0;
+    transition: all 2s;
+}
+.box-three{
+    height:660%;
+    background:url("../img/m1.jpg");
+    background-size: contain;
+    position: relative;
+    padding-top: 0.86rem;
+}
+.box-three p{
+    color: #ff7b7d;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    left:-3.6rem;top:0.3rem;
+    font-size:0.4rem;
+    transition: all 2s;
+    margin-bottom:0.1rem;
+}
+.ph{
+    border-radius: 50%;
+    float:left;
+    overflow: hidden;
+    border:0.2rem solid rgba(255, 123, 125, 0.5);
+}
+.ph img{
+    width:100%;
+}
+.ph1{
+    width:5rem;height:5rem;
+    margin-left:0.2rem;
+}
+.ph2{
+    width:2rem;height:2rem;
+    margin-top:2rem;
+    margin-left:0.4rem;
+}
+.ph2 img{
+    width:3rem;
+    margin-left:-0.4rem;
+}
+.ph3{
+    width:3rem;height:3rem;
+    margin-left:0.6rem;
+}
+.ph4{
+    width:4rem;height:4rem;
+    margin-left:0.2rem;
+    margin-top:0.2rem;
+}
+.ph4 img{
+    margin-top:-1rem;
+}
+.ph5{
+    width:7rem;height:9rem;
+    -webkit-border-radius:1.6rem;
+    -moz-border-radius:1.6rem;
+    border-radius:1.6rem;
+    margin:0.1rem auto;
+}
+.bm{
+    width:100%;
+    background: #fff;
+    font-size:0.3rem;
+    text-align: center;
+    color:#ff7b7d;
+    margin-top:0.4rem;
+}
