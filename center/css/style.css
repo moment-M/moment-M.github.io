@@ -341,7 +341,7 @@ p.m_5 {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
-  width: 24%;
+  width: 32%;
   display: none;
   float: left;
   overflow: hidden;
@@ -536,9 +536,6 @@ div#portfoliolist {
 	padding: 10px 0;
 	line-height: 1.8em;
 	font-size: 14px;
-}
-.skill-info {
-	margin: 6em 0;
 }
 .skillitem-box {
 	width: 100%;

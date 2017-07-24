@@ -15,7 +15,12 @@
 				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+
 				});
+				$(".top-menu ul li").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				})
 			});
 		</script>
 <!--start-smoth-scrolling-->
@@ -79,7 +84,7 @@
 							<div class="portfolio"  style="display: inline-block; opacity: 1;">
 								<div class="portfolio-wrapper">
 									<a href="http://zixunxinwenpc.duapp.com" class="b-link-stripe b-animate-go  " target="_black" title="NEWS">
-										<img src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">NEWS<img src="images/logo2.png" /></h2>
+										<img src="images/news.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">NEWS<img src="images/logo2.png" /></h2>
 									</div></a>
 								</div>
 							</div>
@@ -88,17 +93,24 @@
 						<div class="portfolio"  style="display: inline-block; opacity: 1;">
 							<div class="portfolio-wrapper">		
 								<a href="http://mmmoment.duapp.com/" class="b-link-stripe b-animate-go" target="_black" title="新纶科技">
-							     <img src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">新纶科技<img src="images/logo2.png" /></h2>
+							     <img src="images/logo5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">新纶科技<img src="images/logo2.png" /></h2>
 							  	 </div></a>
 			                </div>
 						</div>						
 						<div class="portfolio"  style="display: inline-block; opacity: 1;">
 							<div class="portfolio-wrapper">		
 								<a href="http://wmtiefu.duapp.com" class="b-link-stripe b-animate-go" target="_black"  title="铁斧">
-							     <img src="images/p4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left">铁斧<img src="images/logo2.png" /></h2>
+							     <img src="images/logo4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left">铁斧<img src="images/logo2.png" /></h2>
 							  	 </div></a>
 			                </div>
-						</div>	
+						</div>
+						<div class="portfolio"  style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">
+								<a href="http://lichencs.duapp.com" class="b-link-stripe b-animate-go"  target="_black" title="超本乐">
+									<img src="images/logo3.png" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">超本乐<img src="images/logo2.png" /></h2>
+								</div></a>
+							</div>
+						</div>
 						<div class="portfolio"  style="display: inline-block; opacity: 1;">
 							<div class="portfolio-wrapper">		
 								<a href="https://moment-m.github.io/weather-app/index.html" target="_black" class="b-link-stripe b-animate-go"  title="天气APP">
@@ -106,27 +118,7 @@
 							  	 </div></a>
 			                </div> 
 						</div>			
-						<div class="portfolio"  style="display: inline-block; opacity: 1;">
-							<div class="portfolio-wrapper">		
-								<a href="images/p6.jpg" class="b-link-stripe b-animate-go"  target="_black" title="Image Title">
-							     <img src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">项目六<img src="images/logo2.png" /></h2>
-							  	 </div></a>
-			                </div>
-			            </div>	
-			            <div class="portfolio"  style="display: inline-block; opacity: 1;">
-							<div class="portfolio-wrapper">		
-								<a href="images/p7.jpg" class="b-link-stripe b-animate-go"  target="_black" title="Image Title">
-							     <img src="images/p7.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">项目七<img src="images/logo2.png" /></h2>
-							  	 </div></a>
-			                </div> 
-						</div>			
-						<div class="portfolio"  style="display: inline-block; opacity: 1;">
-							<div class="portfolio-wrapper">		
-								<a href="images/p8.jpg" class="b-link-stripe b-animate-go"  target="_black" title="Image Title">
-							     <img src="images/p8.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">项目八<img src="images/logo2.png" /></h2>
-							  	 </div></a>
-			                </div>
-			            </div>		
+
 			            <div class="clearfix"> </div>
 			</div>
 </div>
@@ -185,7 +177,7 @@
 						</div>
 						<div className="c-box">
 							<div className="h3" style="font-size:20px">移动端</div>
-							<p className="con">熟练使用zepto.js移动框架进行移动页面的开发，熟练使用threejs等js引擎进行3d效果和H5游戏的开发.</p>
+							<p className="con">熟练移动端布局，会使用touch.js,zepto.js移动框架进行移动页面的开发.</p>
 						</div>
 						<div className="c-box">
 							<div className="h3" style="font-size:20px">其他</div>
